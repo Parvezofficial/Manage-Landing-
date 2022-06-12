@@ -17,14 +17,60 @@
             <img src="img/logo.svg" alt="">
         </div>
         <!-- menu items  -->
-        <div class=" hidden md:flex space-x-6">
-          <a href="#">Pricing</a>
-          <a href="#">Products</a>
-          <a href="#">About Us</a>
-          <a href="#">Carrer</a>
-          <a href="#">Community</a>
+        <div class=" hidden space-x-6  md:flex">
+          <a href="#" class="hover:text-darkGrayishBlue">Pricing</a>
+          <a href="#" class="hover:text-darkGrayishBlue">Products</a>
+          <a href="#" class="hover:text-darkGrayishBlue">About Us</a>
+          <a href="#" class="hover:text-darkGrayishBlue">Carrer</a>
+          <a href="#" class="hover:text-darkGrayishBlue">Community</a>
         </div>
+        <!-- button  -->
+        <a href="#" class=" hidden p-3 px-6 pt-2 text-white bg-brightRed rounded-full baseline hover:bg-brightRedLight md:block">
+          Get Started
+        </a>
       </div>
     </nav>
+    <!-- hero section  -->
+      <sction id="hero">
+        <!-- flex container -->
+        <div class="container flex flex-col-reverse items-center px-6 mx-auto mt-10 space-y-0 md:space-y-0 md:flex-row">
+          <!-- left item  -->
+          <div class="flex flex-col mb-32 space-y-12 md:w-1/2">
+            <h1 class="max-w-md text-4xl font-bold text-center md:text-5xl md:text-left">
+              Bring everyone together to build better Products
+            </h1>
+            <p class="max-w-sm text-center text-darkGrayishBlue md:text-left">
+              Manage makes it simple for softwear teams to plan day-to-day tasks while keeping the larger team goals in view.
+            </p>
+            <div class="flex justify-center md:justify-start">
+              <a href="#" class="p-3 px-6 pt-2 text-white bg-brightRed rounded-full baseline hover:bg-brightRedLight">
+                Get Started
+              </a>
+            </div>
+          </div>
+          <!-- image -->
+          <div class="md:w-1/2">
+            <img src="img/illustration-intro.svg" alt="">
+          </div>
+        </div> 
+      </sction>
+
+      <!-- feature section  -->
+      <section id="features">
+          <!-- flex container  -->
+          <div class="container flex flex-col px-4 mx-auto mt-10 space-y-12 md:space-y-0 md:flex-row">
+              <!-- what's different  -->
+              <div class="flex flex-col space-y-12 md:w-1/2">
+                <h2 class="max-w md text-4xl font-bold text-center md:text-left">
+                  What's different about manage?
+                </h2>
+                <p class="max-w sm text-center text-darkGrayishBlue md:text-left">
+                  Manage provides all the functionality your team needs, wihtout the complexity. Our softwear is tailor-made for modern digital product teams.
+                </p>
+              </div>
+              <!-- Number List  -->
+              <div class="flex flex-col space-y-8 md:w-1/2"></div>
+          </div>
+      </section>
 </body>
 </html>

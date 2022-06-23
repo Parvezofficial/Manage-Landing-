@@ -29,12 +29,27 @@
           Get Started
         </a>
         <!-- Humburger Icon  -->
-        <button class="block humburger md:hidden focus:outline-none" id="menu-btn">
+        <button 
+        id="menu-btn" 
+        class="block humberger md:hidden focus:outline-none">
           <span class="humberger-top"></span>
           <span class="humberger-middle"></span>
           <span class="humberger-bottom"></span>
         </button>
       </div>
+
+      <!-- mobile menu  -->
+      <div class="md:hidden">
+        <div id="menu" 
+        class="absolute flex-col items-center self-end hidden py-8 mt-10 space-y-6 font-bold bg-white sm:w-auto sm:self-center left-6 right-6 drop-shadow-md">
+          <a href="#" class="hover:text-darkGrayishBlue">Pricing</a>
+          <a href="#" class="hover:text-darkGrayishBlue">Products</a>
+          <a href="#" class="hover:text-darkGrayishBlue">About Us</a>
+          <a href="#" class="hover:text-darkGrayishBlue">Carrer</a>
+          <a href="#" class="hover:text-darkGrayishBlue">Community</a>
+        </div>
+      </div>
+
     </nav>
     <!-- hero section  -->
       <sction id="hero">
@@ -275,5 +290,7 @@
               </div>
             </div>
           </footer>
+
+          <script src="script.js"></script>
 </body>
 </html>
